@@ -181,7 +181,7 @@ wishButton.addEventListener("click", () => {
 function makeFloatingCat() {
   const el = document.createElement("div");
   el.className = "floating-dancing-cat";
-  el.innerHTML = ["🐱", "😻", "😻", "🐾", "😽" ][Math.floor(Math.random() * 5)];
+  el.innerHTML = ["😽", "😻", "😻", "🐾", "😽" ][Math.floor(Math.random() * 5)];
   
   const randomX = 10 + Math.random() * 80;
   const randomSize = 20 + Math.random() * 22;
