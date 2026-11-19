@@ -174,7 +174,7 @@ requestAnimationFrame(draw);
 const wishButton = document.getElementById("wishButton");
 const wishResult = document.getElementById("wishResult");
 wishButton.addEventListener("click", () => {
-  wishResult.textContent = "May every beautiful wish find its way to you. ♡";
+  wishResult.textContent = "May every beautiful wish find its way to you ♡";
   for (let i = 0; i < 18; i++) makeFloatingCat();
 });
 
